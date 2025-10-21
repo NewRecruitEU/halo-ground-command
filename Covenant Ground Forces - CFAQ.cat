@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="c5fc-358c-429a-1f5b" name="Covenant Ground Forces - CFAQ" gameSystemId="6631-3ba7-47d8-b3df" gameSystemRevision="5" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedSelectionEntries>
+    <selectionEntry type="unit" import="true" name="Elite Zealot - Warhost Leader" hidden="false" id="9021-48a4-8b88-98c3">
+      <costs>
+        <cost name="pts" typeId="points" value="160"/>
+        <cost name="BR" typeId="Build Rating" value="3"/>
+        <cost name="C" typeId="Character" value="2"/>
+      </costs>
+      <profiles>
+        <profile name="Elite Zealot - Warhost Leader" typeId="64a0-7713-dd08-5a9d" typeName="Element - Infantry" hidden="false" id="0917-a6c8-146e-ae82">
+          <characteristics>
+            <characteristic name="Type" typeId="3042-33d5-e5ca-996e">CI</characteristic>
+            <characteristic name="Build Rating" typeId="c2f2-7f0a-32f4-37b7">3</characteristic>
+            <characteristic name="Move" typeId="a71c-3460-0bd5-85d1">6/9&quot;</characteristic>
+            <characteristic name="Soak" typeId="8f99-9d90-0ee7-5d9e">0</characteristic>
+            <characteristic name="React" typeId="8199-6003-2847-9797">7/9</characteristic>
+            <characteristic name="Melee" typeId="7e67-d86f-5377-b64e">8</characteristic>
+            <characteristic name="Damage" typeId="7543-31e5-03f6-f160">5-5</characteristic>
+            <characteristic name="Loadouts" typeId="45af-dd89-bc47-d2af">Attachment (INF), Battle Hardened (6), Commanding Presence (6”), Fearless, Heroic Save (3+)</characteristic>
+            <characteristic name="Elements" typeId="1c7b-2321-f006-d674">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Small Arms" typeId="6c7a-4fe3-9ca0-168a" typeName="Unit Weapons" hidden="false" id="ef56-dd75-1a79-3db6">
+          <characteristics>
+            <characteristic name="Range" typeId="b105-0b2d-c20d-2f77">10/20&quot;</characteristic>
+            <characteristic name="Weapon Loadouts" typeId="7758-d23e-b312-134e">Point Blank</characteristic>
+            <characteristic name="Arc" typeId="dc58-10d6-a1f0-3f09">ALL</characteristic>
+            <characteristic name="AP" typeId="b639-e494-578f-979d">7</characteristic>
+            <characteristic name="AT" typeId="9217-7144-1e94-683d">7</characteristic>
+            <characteristic name="AA" typeId="70d2-0215-d018-d05e">6</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Plasma Grenades" typeId="6c7a-4fe3-9ca0-168a" typeName="Unit Weapons" hidden="false" id="ae9f-caaf-4572-fb2e">
+          <characteristics>
+            <characteristic name="Range" typeId="b105-0b2d-c20d-2f77">10&quot;/</characteristic>
+            <characteristic name="Weapon Loadouts" typeId="7758-d23e-b312-134e">Blast, Cooldown</characteristic>
+            <characteristic name="Arc" typeId="dc58-10d6-a1f0-3f09">ALL</characteristic>
+            <characteristic name="AP" typeId="b639-e494-578f-979d">5</characteristic>
+            <characteristic name="AT" typeId="9217-7144-1e94-683d">3</characteristic>
+            <characteristic name="AA" typeId="70d2-0215-d018-d05e">0</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Elite Officer - Warhost Obedientiary" hidden="false" id="ed34-bea9-57df-8002">
+      <costs>
+        <cost name="pts" typeId="points" value="100"/>
+        <cost name="BR" typeId="Build Rating" value="2"/>
+        <cost name="C" typeId="Character" value="1"/>
+      </costs>
+      <profiles>
+        <profile name="Elite Officer - Warhost Obedientiary" typeId="64a0-7713-dd08-5a9d" typeName="Element - Infantry" hidden="false" id="26fa-3d92-f24f-71e1">
+          <characteristics>
+            <characteristic name="Type" typeId="3042-33d5-e5ca-996e">CI</characteristic>
+            <characteristic name="Build Rating" typeId="c2f2-7f0a-32f4-37b7">3</characteristic>
+            <characteristic name="Move" typeId="a71c-3460-0bd5-85d1">6/9&quot;</characteristic>
+            <characteristic name="Soak" typeId="8f99-9d90-0ee7-5d9e">0</characteristic>
+            <characteristic name="React" typeId="8199-6003-2847-9797">6/8</characteristic>
+            <characteristic name="Melee" typeId="7e67-d86f-5377-b64e">5</characteristic>
+            <characteristic name="Damage" typeId="7543-31e5-03f6-f160">6</characteristic>
+            <characteristic name="Loadouts" typeId="45af-dd89-bc47-d2af">Attachment (ALL), Battle Hardened (3), Commanding Presence (12”), Heroic Save (3+)</characteristic>
+            <characteristic name="Elements" typeId="1c7b-2321-f006-d674">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Small Arms" typeId="6c7a-4fe3-9ca0-168a" typeName="Unit Weapons" hidden="false" id="ed57-ee27-a39c-3afd">
+          <characteristics>
+            <characteristic name="Range" typeId="b105-0b2d-c20d-2f77">10/20&quot;</characteristic>
+            <characteristic name="Weapon Loadouts" typeId="7758-d23e-b312-134e">Point Blank</characteristic>
+            <characteristic name="Arc" typeId="dc58-10d6-a1f0-3f09">ALL</characteristic>
+            <characteristic name="AP" typeId="b639-e494-578f-979d">7</characteristic>
+            <characteristic name="AT" typeId="9217-7144-1e94-683d">7</characteristic>
+            <characteristic name="AA" typeId="70d2-0215-d018-d05e">6</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Plasma Grenades" typeId="6c7a-4fe3-9ca0-168a" typeName="Unit Weapons" hidden="false" id="0dee-4ef7-e2f6-4d6a">
+          <characteristics>
+            <characteristic name="Range" typeId="b105-0b2d-c20d-2f77">10&quot;/</characteristic>
+            <characteristic name="Weapon Loadouts" typeId="7758-d23e-b312-134e">Blast, Cooldown</characteristic>
+            <characteristic name="Arc" typeId="dc58-10d6-a1f0-3f09">ALL</characteristic>
+            <characteristic name="AP" typeId="b639-e494-578f-979d">5</characteristic>
+            <characteristic name="AT" typeId="9217-7144-1e94-683d">3</characteristic>
+            <characteristic name="AA" typeId="70d2-0215-d018-d05e">0</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Grunts - Covenant Lance" hidden="false" id="4d0d-78bc-16c8-3952">
+      <costs>
+        <cost name="pts" typeId="points" value="50"/>
+        <cost name="BR" typeId="Build Rating" value="1"/>
+        <cost name="C" typeId="Character" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Grunts - Covenant Lance" typeId="64a0-7713-dd08-5a9d" typeName="Element - Infantry" hidden="false" id="52a4-fada-e3d4-9769">
+          <characteristics>
+            <characteristic name="Type" typeId="3042-33d5-e5ca-996e">INF</characteristic>
+            <characteristic name="Build Rating" typeId="c2f2-7f0a-32f4-37b7">1</characteristic>
+            <characteristic name="Move" typeId="a71c-3460-0bd5-85d1">6/9&quot;</characteristic>
+            <characteristic name="Soak" typeId="8f99-9d90-0ee7-5d9e">0</characteristic>
+            <characteristic name="React" typeId="8199-6003-2847-9797">9/11</characteristic>
+            <characteristic name="Melee" typeId="7e67-d86f-5377-b64e">1</characteristic>
+            <characteristic name="Damage" typeId="7543-31e5-03f6-f160">3</characteristic>
+            <characteristic name="Loadouts" typeId="45af-dd89-bc47-d2af"/>
+            <characteristic name="Elements" typeId="1c7b-2321-f006-d674">4</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Small Arms" typeId="6c7a-4fe3-9ca0-168a" typeName="Unit Weapons" hidden="false" id="2cbb-c548-6472-8742">
+          <characteristics>
+            <characteristic name="Range" typeId="b105-0b2d-c20d-2f77">12/20&quot;</characteristic>
+            <characteristic name="Weapon Loadouts" typeId="7758-d23e-b312-134e">Limited Range, Point Blank</characteristic>
+            <characteristic name="Arc" typeId="dc58-10d6-a1f0-3f09">ALL</characteristic>
+            <characteristic name="AP" typeId="b639-e494-578f-979d">2</characteristic>
+            <characteristic name="AT" typeId="9217-7144-1e94-683d">2</characteristic>
+            <characteristic name="AA" typeId="70d2-0215-d018-d05e">2</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Plasma Grenade" typeId="6c7a-4fe3-9ca0-168a" typeName="Unit Weapons" hidden="false" id="2482-aaa4-0c46-4de5">
+          <characteristics>
+            <characteristic name="Range" typeId="b105-0b2d-c20d-2f77">10&quot;/-</characteristic>
+            <characteristic name="Weapon Loadouts" typeId="7758-d23e-b312-134e">Blast, Cooldown</characteristic>
+            <characteristic name="Arc" typeId="dc58-10d6-a1f0-3f09">ALL</characteristic>
+            <characteristic name="AP" typeId="b639-e494-578f-979d">2</characteristic>
+            <characteristic name="AT" typeId="9217-7144-1e94-683d">2</characteristic>
+            <characteristic name="AA" typeId="70d2-0215-d018-d05e">0</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Warrior Upgrade" id="34eb-4f5f-171c-be82" hidden="false" sortIndex="1" defaultSelectionEntryId="4648-3ebb-75a8-119c">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Elite Minor - Overseer" hidden="false" id="4648-3ebb-75a8-119c">
+              <profiles>
+                <profile name="Elite Minor - Overseer" typeId="64a0-7713-dd08-5a9d" typeName="Element - Infantry" hidden="false" id="e158-eb7a-0fe4-b2d3">
+                  <characteristics>
+                    <characteristic name="Type" typeId="3042-33d5-e5ca-996e">INF</characteristic>
+                    <characteristic name="Build Rating" typeId="c2f2-7f0a-32f4-37b7">0</characteristic>
+                    <characteristic name="Move" typeId="a71c-3460-0bd5-85d1">6/9&quot;</characteristic>
+                    <characteristic name="Soak" typeId="8f99-9d90-0ee7-5d9e">0</characteristic>
+                    <characteristic name="React" typeId="8199-6003-2847-9797">7/10&quot;</characteristic>
+                    <characteristic name="Melee" typeId="7e67-d86f-5377-b64e">3</characteristic>
+                    <characteristic name="Damage" typeId="7543-31e5-03f6-f160">4</characteristic>
+                    <characteristic name="Loadouts" typeId="45af-dd89-bc47-d2af">Battle Hardened (1), Heroic Save (4+), Reinforcements</characteristic>
+                    <characteristic name="Elements" typeId="1c7b-2321-f006-d674">UPG</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="Small Arms" typeId="6c7a-4fe3-9ca0-168a" typeName="Unit Weapons" hidden="false" id="7c64-e7ea-4d71-f64b">
+                  <characteristics>
+                    <characteristic name="Range" typeId="b105-0b2d-c20d-2f77">12/20&quot;</characteristic>
+                    <characteristic name="Weapon Loadouts" typeId="7758-d23e-b312-134e">Limited Range, Point Blank</characteristic>
+                    <characteristic name="Arc" typeId="dc58-10d6-a1f0-3f09">ALL</characteristic>
+                    <characteristic name="AP" typeId="b639-e494-578f-979d">4</characteristic>
+                    <characteristic name="AT" typeId="9217-7144-1e94-683d">2</characteristic>
+                    <characteristic name="AA" typeId="70d2-0215-d018-d05e">2</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="Plasma Grenade" typeId="6c7a-4fe3-9ca0-168a" typeName="Unit Weapons" hidden="false" id="a668-ff00-56fc-e841">
+                  <characteristics>
+                    <characteristic name="Range" typeId="b105-0b2d-c20d-2f77">10&quot;/-</characteristic>
+                    <characteristic name="Weapon Loadouts" typeId="7758-d23e-b312-134e">Blast, Cooldown</characteristic>
+                    <characteristic name="Arc" typeId="dc58-10d6-a1f0-3f09">ALL</characteristic>
+                    <characteristic name="AP" typeId="b639-e494-578f-979d">3</characteristic>
+                    <characteristic name="AT" typeId="9217-7144-1e94-683d">2</characteristic>
+                    <characteristic name="AA" typeId="70d2-0215-d018-d05e">0</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="20"/>
+                <cost name="BR" typeId="Build Rating" value="0"/>
+                <cost name="C" typeId="Character" value="0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a6c1-fcd7-051a-40aa" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Jackal Supplicant - Shield Base" id="1f2d-cc96-489d-908a" hidden="false" sortIndex="2" defaultSelectionEntryId="51a2-e716-292e-98c2">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Jackal Supplicant - Shield Base" hidden="false" id="51a2-e716-292e-98c2">
+              <costs>
+                <cost name="pts" typeId="points" value="15"/>
+                <cost name="BR" typeId="Build Rating" value="0"/>
+                <cost name="C" typeId="Character" value="0"/>
+              </costs>
+              <profiles>
+                <profile name="Jackal Supplicant - Shield Base" typeId="64a0-7713-dd08-5a9d" typeName="Element - Infantry" hidden="false" id="d7ae-6cfa-9c7a-a0a1">
+                  <characteristics>
+                    <characteristic name="Type" typeId="3042-33d5-e5ca-996e">INF</characteristic>
+                    <characteristic name="Build Rating" typeId="c2f2-7f0a-32f4-37b7">0</characteristic>
+                    <characteristic name="Move" typeId="a71c-3460-0bd5-85d1">6/9&quot;</characteristic>
+                    <characteristic name="Soak" typeId="8f99-9d90-0ee7-5d9e">0</characteristic>
+                    <characteristic name="React" typeId="8199-6003-2847-9797">8/10</characteristic>
+                    <characteristic name="Melee" typeId="7e67-d86f-5377-b64e">1</characteristic>
+                    <characteristic name="Damage" typeId="7543-31e5-03f6-f160">3</characteristic>
+                    <characteristic name="Loadouts" typeId="45af-dd89-bc47-d2af">Heroic Save (6+), Shield Wall, Reinforcements</characteristic>
+                    <characteristic name="Elements" typeId="1c7b-2321-f006-d674">UPG</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="Small Arms" typeId="6c7a-4fe3-9ca0-168a" typeName="Unit Weapons" hidden="false" id="8ff9-9ecf-1fcc-687c">
+                  <characteristics>
+                    <characteristic name="Range" typeId="b105-0b2d-c20d-2f77">12/20&quot;</characteristic>
+                    <characteristic name="Weapon Loadouts" typeId="7758-d23e-b312-134e">Limited Range, Point Blank</characteristic>
+                    <characteristic name="Arc" typeId="dc58-10d6-a1f0-3f09">ALL</characteristic>
+                    <characteristic name="AP" typeId="b639-e494-578f-979d">3</characteristic>
+                    <characteristic name="AT" typeId="9217-7144-1e94-683d">2</characteristic>
+                    <characteristic name="AA" typeId="70d2-0215-d018-d05e">2</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="Plasma Grenade" typeId="6c7a-4fe3-9ca0-168a" typeName="Unit Weapons" hidden="false" id="b48c-baac-5e91-2618">
+                  <characteristics>
+                    <characteristic name="Range" typeId="b105-0b2d-c20d-2f77">10&quot;/-</characteristic>
+                    <characteristic name="Weapon Loadouts" typeId="7758-d23e-b312-134e">Blast, Cooldown</characteristic>
+                    <characteristic name="Arc" typeId="dc58-10d6-a1f0-3f09">ALL</characteristic>
+                    <characteristic name="AP" typeId="b639-e494-578f-979d">2</characteristic>
+                    <characteristic name="AT" typeId="9217-7144-1e94-683d">2</characteristic>
+                    <characteristic name="AA" typeId="70d2-0215-d018-d05e">0</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="42ae-39ac-4040-dd1e" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Fuel Rod Cannon" id="d516-a1b1-5e6d-9617" hidden="false" sortIndex="3" defaultSelectionEntryId="c027-c397-c7b9-3f44">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Weapon Upgrade" hidden="false" id="c027-c397-c7b9-3f44">
+              <costs>
+                <cost name="pts" typeId="points" value="15"/>
+                <cost name="BR" typeId="Build Rating" value="0"/>
+                <cost name="C" typeId="Character" value="0"/>
+              </costs>
+              <profiles>
+                <profile name="Fuel Rod Cannon" typeId="6c7a-4fe3-9ca0-168a" typeName="Unit Weapons" hidden="false" id="e370-e969-a1b8-462b">
+                  <characteristics>
+                    <characteristic name="Range" typeId="b105-0b2d-c20d-2f77">15/20&quot;</characteristic>
+                    <characteristic name="Weapon Loadouts" typeId="7758-d23e-b312-134e">Point Blank</characteristic>
+                    <characteristic name="Arc" typeId="dc58-10d6-a1f0-3f09">ALL</characteristic>
+                    <characteristic name="AP" typeId="b639-e494-578f-979d">2</characteristic>
+                    <characteristic name="AT" typeId="9217-7144-1e94-683d">6</characteristic>
+                    <characteristic name="AA" typeId="70d2-0215-d018-d05e">1</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0b08-e501-5318-343b" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Jackal Assault - Shock Unit" hidden="false" id="4e44-7dc3-4161-9a9d">
+      <costs>
+        <cost name="pts" typeId="points" value="120"/>
+        <cost name="BR" typeId="Build Rating" value="1"/>
+        <cost name="C" typeId="Character" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Jackal Assault - Shock Unit" typeId="64a0-7713-dd08-5a9d" typeName="Element - Infantry" hidden="false" id="e851-6e59-b5d5-b29b">
+          <characteristics>
+            <characteristic name="Type" typeId="3042-33d5-e5ca-996e">INF</characteristic>
+            <characteristic name="Build Rating" typeId="c2f2-7f0a-32f4-37b7">1</characteristic>
+            <characteristic name="Move" typeId="a71c-3460-0bd5-85d1">8/12&quot;</characteristic>
+            <characteristic name="Soak" typeId="8f99-9d90-0ee7-5d9e">0</characteristic>
+            <characteristic name="React" typeId="8199-6003-2847-9797">6/8</characteristic>
+            <characteristic name="Melee" typeId="7e67-d86f-5377-b64e">2</characteristic>
+            <characteristic name="Damage" typeId="7543-31e5-03f6-f160">4</characteristic>
+            <characteristic name="Loadouts" typeId="45af-dd89-bc47-d2af">Elusive (ALL-1), Heroic Save (6+), Shield Wall</characteristic>
+            <characteristic name="Elements" typeId="1c7b-2321-f006-d674">4</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Small Arms" typeId="6c7a-4fe3-9ca0-168a" typeName="Unit Weapons" hidden="false" id="c062-61dd-e7e4-9d5d">
+          <characteristics>
+            <characteristic name="Range" typeId="b105-0b2d-c20d-2f77">12/20&quot;</characteristic>
+            <characteristic name="Weapon Loadouts" typeId="7758-d23e-b312-134e">Limited Range, Point Blank</characteristic>
+            <characteristic name="Arc" typeId="dc58-10d6-a1f0-3f09">ALL</characteristic>
+            <characteristic name="AP" typeId="b639-e494-578f-979d">3</characteristic>
+            <characteristic name="AT" typeId="9217-7144-1e94-683d">2</characteristic>
+            <characteristic name="AA" typeId="70d2-0215-d018-d05e">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Plasma Grenade" typeId="6c7a-4fe3-9ca0-168a" typeName="Unit Weapons" hidden="false" id="95ce-82c9-03f5-eb7c">
+          <characteristics>
+            <characteristic name="Range" typeId="b105-0b2d-c20d-2f77">10&quot;/-</characteristic>
+            <characteristic name="Weapon Loadouts" typeId="7758-d23e-b312-134e">Blast, Cooldown</characteristic>
+            <characteristic name="Arc" typeId="dc58-10d6-a1f0-3f09">ALL</characteristic>
+            <characteristic name="AP" typeId="b639-e494-578f-979d">4</characteristic>
+            <characteristic name="AT" typeId="9217-7144-1e94-683d">1</characteristic>
+            <characteristic name="AA" typeId="70d2-0215-d018-d05e">0</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Grunt Heavies - Heavy Weapons Unit" hidden="false" id="86e7-dacc-84c0-8978">
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Officer Upgrade" id="3364-a850-a388-f18f" hidden="false" sortIndex="1"/>
+        <selectionEntryGroup name="Weapon Upgrades" id="1f83-4607-f6c8-47f4" hidden="false" sortIndex="2"/>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="100"/>
+        <cost name="BR" typeId="Build Rating" value="2"/>
+        <cost name="C" typeId="Character" value="0"/>
+      </costs>
+      <comment>Last Left off</comment>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <selectionEntries>
+    <selectionEntry type="upgrade" import="true" name="New Entry" hidden="false" id="9b42-ccce-a100-7ea2"/>
+  </selectionEntries>
+</catalogue>

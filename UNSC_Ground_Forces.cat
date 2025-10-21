@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="430f-df64-179a-ec40" name="UNSC Ground Forces" revision="11" battleScribeVersion="2.03" library="false" gameSystemId="6631-3ba7-47d8-b3df" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="430f-df64-179a-ec40" name="UNSC Ground Forces - Spartan Close" revision="11" battleScribeVersion="2.03" library="false" gameSystemId="6631-3ba7-47d8-b3df" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <selectionEntries>
     <selectionEntry id="c7f5-a544-4e25-2960" name="UNSC Mechanised Infantry Battlegroup" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>

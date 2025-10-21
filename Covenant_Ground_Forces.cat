@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="48fa-9813-1dc1-d3af" name="Covenant Ground Forces" revision="10" battleScribeVersion="2.03" library="false" gameSystemId="6631-3ba7-47d8-b3df" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="48fa-9813-1dc1-d3af" name="Covenant Ground Forces - Spartan Close" revision="10" battleScribeVersion="2.03" library="false" gameSystemId="6631-3ba7-47d8-b3df" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <publications>
     <publication id="48fa-9813-pubN67655" name="Core"/>
   </publications>
