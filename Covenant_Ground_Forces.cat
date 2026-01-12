@@ -14,7 +14,7 @@
         <cost name="BR" typeId="Build Rating" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e59e-417a-49cd-a617" name="Hunting Host Infantry Battlegroup" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="e59e-417a-49cd-a617" name="Hunting Host Infantry Battlegroup" hidden="false" collective="false" import="true" type="unit" subType="unit-group">
       <categoryLinks>
         <categoryLink id="e59e-417a-49cd-a617-2622-52fa-29f7-96bb" hidden="false" targetId="2622-52fa-29f7-96bb" primary="true" name="2. Standard Battle Groups"/>
       </categoryLinks>
