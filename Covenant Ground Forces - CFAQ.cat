@@ -108,7 +108,7 @@
         <profile name="Small Arms" typeId="6c7a-4fe3-9ca0-168a" typeName="Unit Weapons" hidden="false" id="2cbb-c548-6472-8742">
           <characteristics>
             <characteristic name="Range" typeId="b105-0b2d-c20d-2f77">12/20&quot;</characteristic>
-            <characteristic name="Weapon Loadouts" typeId="7758-d23e-b312-134e">Limited Range, Point Blank</characteristic>
+            <characteristic name="Weapon Loadouts" typeId="7758-d23e-b312-134e">LR, PB</characteristic>
             <characteristic name="Arc" typeId="dc58-10d6-a1f0-3f09">ALL</characteristic>
             <characteristic name="AP" typeId="b639-e494-578f-979d">2</characteristic>
             <characteristic name="AT" typeId="9217-7144-1e94-683d">2</characteristic>
@@ -118,7 +118,7 @@
         <profile name="Plasma Grenade" typeId="6c7a-4fe3-9ca0-168a" typeName="Unit Weapons" hidden="false" id="2482-aaa4-0c46-4de5">
           <characteristics>
             <characteristic name="Range" typeId="b105-0b2d-c20d-2f77">10&quot;/-</characteristic>
-            <characteristic name="Weapon Loadouts" typeId="7758-d23e-b312-134e">Blast, Cooldown</characteristic>
+            <characteristic name="Weapon Loadouts" typeId="7758-d23e-b312-134e">B, CD</characteristic>
             <characteristic name="Arc" typeId="dc58-10d6-a1f0-3f09">ALL</characteristic>
             <characteristic name="AP" typeId="b639-e494-578f-979d">2</characteristic>
             <characteristic name="AT" typeId="9217-7144-1e94-683d">2</characteristic>
@@ -147,7 +147,7 @@
                 <profile name="Small Arms" typeId="6c7a-4fe3-9ca0-168a" typeName="Unit Weapons" hidden="false" id="7c64-e7ea-4d71-f64b">
                   <characteristics>
                     <characteristic name="Range" typeId="b105-0b2d-c20d-2f77">12/20&quot;</characteristic>
-                    <characteristic name="Weapon Loadouts" typeId="7758-d23e-b312-134e">Limited Range, Point Blank</characteristic>
+                    <characteristic name="Weapon Loadouts" typeId="7758-d23e-b312-134e">LR, PB</characteristic>
                     <characteristic name="Arc" typeId="dc58-10d6-a1f0-3f09">ALL</characteristic>
                     <characteristic name="AP" typeId="b639-e494-578f-979d">4</characteristic>
                     <characteristic name="AT" typeId="9217-7144-1e94-683d">2</characteristic>
@@ -157,7 +157,7 @@
                 <profile name="Plasma Grenade" typeId="6c7a-4fe3-9ca0-168a" typeName="Unit Weapons" hidden="false" id="a668-ff00-56fc-e841">
                   <characteristics>
                     <characteristic name="Range" typeId="b105-0b2d-c20d-2f77">10&quot;/-</characteristic>
-                    <characteristic name="Weapon Loadouts" typeId="7758-d23e-b312-134e">Blast, Cooldown</characteristic>
+                    <characteristic name="Weapon Loadouts" typeId="7758-d23e-b312-134e">B, CD</characteristic>
                     <characteristic name="Arc" typeId="dc58-10d6-a1f0-3f09">ALL</characteristic>
                     <characteristic name="AP" typeId="b639-e494-578f-979d">3</characteristic>
                     <characteristic name="AT" typeId="9217-7144-1e94-683d">2</characteristic>
@@ -194,14 +194,14 @@
                     <characteristic name="React" typeId="8199-6003-2847-9797">8/10</characteristic>
                     <characteristic name="Melee" typeId="7e67-d86f-5377-b64e">1</characteristic>
                     <characteristic name="Damage" typeId="7543-31e5-03f6-f160">3</characteristic>
-                    <characteristic name="Loadouts" typeId="45af-dd89-bc47-d2af">Heroic Save (6+), Shield Wall, Reinforcements</characteristic>
+                    <characteristic name="Loadouts" typeId="45af-dd89-bc47-d2af">HS(6+), SW, R</characteristic>
                     <characteristic name="Elements" typeId="1c7b-2321-f006-d674">UPG</characteristic>
                   </characteristics>
                 </profile>
                 <profile name="Small Arms" typeId="6c7a-4fe3-9ca0-168a" typeName="Unit Weapons" hidden="false" id="8ff9-9ecf-1fcc-687c">
                   <characteristics>
                     <characteristic name="Range" typeId="b105-0b2d-c20d-2f77">12/20&quot;</characteristic>
-                    <characteristic name="Weapon Loadouts" typeId="7758-d23e-b312-134e">Limited Range, Point Blank</characteristic>
+                    <characteristic name="Weapon Loadouts" typeId="7758-d23e-b312-134e">LR, PB</characteristic>
                     <characteristic name="Arc" typeId="dc58-10d6-a1f0-3f09">ALL</characteristic>
                     <characteristic name="AP" typeId="b639-e494-578f-979d">3</characteristic>
                     <characteristic name="AT" typeId="9217-7144-1e94-683d">2</characteristic>
@@ -211,7 +211,7 @@
                 <profile name="Plasma Grenade" typeId="6c7a-4fe3-9ca0-168a" typeName="Unit Weapons" hidden="false" id="b48c-baac-5e91-2618">
                   <characteristics>
                     <characteristic name="Range" typeId="b105-0b2d-c20d-2f77">10&quot;/-</characteristic>
-                    <characteristic name="Weapon Loadouts" typeId="7758-d23e-b312-134e">Blast, Cooldown</characteristic>
+                    <characteristic name="Weapon Loadouts" typeId="7758-d23e-b312-134e">B, CD</characteristic>
                     <characteristic name="Arc" typeId="dc58-10d6-a1f0-3f09">ALL</characteristic>
                     <characteristic name="AP" typeId="b639-e494-578f-979d">2</characteristic>
                     <characteristic name="AT" typeId="9217-7144-1e94-683d">2</characteristic>
@@ -219,6 +219,9 @@
                   </characteristics>
                 </profile>
               </profiles>
+              <infoLinks>
+                <infoLink name="Shield Wall" id="37a1-4fb1-f4ed-be6d" hidden="false" type="rule" targetId="cd44-0c08-bf54-cfa6"/>
+              </infoLinks>
             </selectionEntry>
           </selectionEntries>
           <constraints>
@@ -237,7 +240,7 @@
                 <profile name="Fuel Rod Cannon" typeId="6c7a-4fe3-9ca0-168a" typeName="Unit Weapons" hidden="false" id="e370-e969-a1b8-462b">
                   <characteristics>
                     <characteristic name="Range" typeId="b105-0b2d-c20d-2f77">15/20&quot;</characteristic>
-                    <characteristic name="Weapon Loadouts" typeId="7758-d23e-b312-134e">Point Blank</characteristic>
+                    <characteristic name="Weapon Loadouts" typeId="7758-d23e-b312-134e">PB</characteristic>
                     <characteristic name="Arc" typeId="dc58-10d6-a1f0-3f09">ALL</characteristic>
                     <characteristic name="AP" typeId="b639-e494-578f-979d">2</characteristic>
                     <characteristic name="AT" typeId="9217-7144-1e94-683d">6</characteristic>
@@ -297,7 +300,23 @@
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Grunt Heavies - Heavy Weapons Unit" hidden="false" id="86e7-dacc-84c0-8978">
       <selectionEntryGroups>
-        <selectionEntryGroup name="Officer Upgrade" id="3364-a850-a388-f18f" hidden="false" sortIndex="1"/>
+        <selectionEntryGroup name="Officer Upgrade" id="3364-a850-a388-f18f" hidden="false" sortIndex="1">
+          <profiles>
+            <profile name="Grunt Ultra Officer - Unggoy Unit Leader" typeId="64a0-7713-dd08-5a9d" typeName="Element - Infantry" hidden="false" id="841c-b72d-9792-fbfc">
+              <characteristics>
+                <characteristic name="Type" typeId="3042-33d5-e5ca-996e">UPG</characteristic>
+                <characteristic name="Build Rating" typeId="c2f2-7f0a-32f4-37b7">0</characteristic>
+                <characteristic name="Move" typeId="a71c-3460-0bd5-85d1"/>
+                <characteristic name="Soak" typeId="8f99-9d90-0ee7-5d9e"/>
+                <characteristic name="React" typeId="8199-6003-2847-9797"/>
+                <characteristic name="Melee" typeId="7e67-d86f-5377-b64e"/>
+                <characteristic name="Damage" typeId="7543-31e5-03f6-f160"/>
+                <characteristic name="Loadouts" typeId="45af-dd89-bc47-d2af"/>
+                <characteristic name="Elements" typeId="1c7b-2321-f006-d674"/>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntryGroup>
         <selectionEntryGroup name="Weapon Upgrades" id="1f83-4607-f6c8-47f4" hidden="false" sortIndex="2"/>
       </selectionEntryGroups>
       <costs>
@@ -305,10 +324,61 @@
         <cost name="BR" typeId="Build Rating" value="2"/>
         <cost name="C" typeId="Character" value="0"/>
       </costs>
-      <comment>Last Left off</comment>
+      <profiles>
+        <profile name="Grunt Heavies - Heavy Weapons Unit" typeId="64a0-7713-dd08-5a9d" typeName="Element - Infantry" hidden="false" id="d491-c5ec-84d6-bebb">
+          <characteristics>
+            <characteristic name="Type" typeId="3042-33d5-e5ca-996e">INF</characteristic>
+            <characteristic name="Build Rating" typeId="c2f2-7f0a-32f4-37b7">2</characteristic>
+            <characteristic name="Move" typeId="a71c-3460-0bd5-85d1">6/9&quot;</characteristic>
+            <characteristic name="Soak" typeId="8f99-9d90-0ee7-5d9e">0</characteristic>
+            <characteristic name="React" typeId="8199-6003-2847-9797">8/10</characteristic>
+            <characteristic name="Melee" typeId="7e67-d86f-5377-b64e">1</characteristic>
+            <characteristic name="Damage" typeId="7543-31e5-03f6-f160">3</characteristic>
+            <characteristic name="Loadouts" typeId="45af-dd89-bc47-d2af">AO</characteristic>
+            <characteristic name="Elements" typeId="1c7b-2321-f006-d674">4</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
   </sharedSelectionEntries>
   <selectionEntries>
-    <selectionEntry type="upgrade" import="true" name="New Entry" hidden="false" id="9b42-ccce-a100-7ea2"/>
+    <selectionEntry type="unit" import="true" name="Warhost Leader - Generic Force Commander" hidden="false" id="9b42-ccce-a100-7ea2" sortIndex="1">
+      <categoryLinks>
+        <categoryLink targetId="1d19-aba0-3ac5-ad1e" id="d97e-f37c-78bb-0d04" primary="true" name="1. Force Commander (BG)"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Hunting Host Infantry Battlegroup" hidden="false" id="3b2b-1c9d-8b51-e37d" sortIndex="2">
+      <categoryLinks>
+        <categoryLink targetId="2622-52fa-29f7-96bb" id="ac24-f6c4-28d3-3df6" primary="true" name="2. Standard Battle Groups"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Siege Host Armoured Battlegroup" hidden="false" id="d0d5-167e-6eb3-5ad6" sortIndex="3">
+      <categoryLinks>
+        <categoryLink targetId="2622-52fa-29f7-96bb" id="a96a-1390-0ea4-0686" primary="true" name="2. Standard Battle Groups"/>
+      </categoryLinks>
+    </selectionEntry>
   </selectionEntries>
+  <sharedRules>
+    <rule name="Shield Wall" id="cd44-0c08-bf54-cfa6" hidden="false">
+      <description>Jackal Supplicant Elements without an Activation Marker improve their Heroic Save (6+) Unit Loadout to Heroic Save (4+) when targeted by
+attacks that originate entirely from within their Front Arc.</description>
+    </rule>
+    <rule name="Instinctive Shot" id="2097-e17f-5516-b3a4" hidden="false">
+      <description>Once per game, when this Unit is performing a Ranged Attack with its Needle Rifles, its Lethal Weapon Loadout value may increase
+from (1) to (2). This must be declared before the Enemy Heroic Save is rolled</description>
+    </rule>
+    <rule name="Flying Infantry" id="c528-a29e-f096-30e4" hidden="false">
+      <description>Unit is treated as a Flyer for the purpose of Unit Damage Type, Terrain Rules, cannot perform a Charge attack, or be the target of a Ram
+Attack</description>
+    </rule>
+    <rule name="Combat Specialists" id="2eac-6efe-6a6f-c917" hidden="false">
+      <description>The Unit may not have Characters attached unless otherwise stated.</description>
+    </rule>
+    <rule name="Reinforcements" id="b726-ea5b-24c4-b001" hidden="false">
+      <description>This Element is fielded as an upgrade only</description>
+    </rule>
+    <rule name="Big Game Hunters" id="dd3f-f5d5-2712-ba77" hidden="false">
+      <description>Each Element in this Unit armed with Fuel Rod Cannons gains +8in to its Long Range Statistic &amp; +1 Attack Dice to its AT Statistic when targeting Armoured Units of 5BR or more</description>
+    </rule>
+  </sharedRules>
 </catalogue>
